@@ -1,0 +1,41 @@
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('/35576348_8306160.jpg');
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: lavender;
+    font-size: 3rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+button {
+    background-image: url('/mb.png');
+    width: 35rem;
+    height: 35rem;
+    background-position: center;
+    background-size: contain;
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-weight: bold;
+    
+}
+
+.buttonV2 {
+    background-image: url('/mb2.png');
+}
